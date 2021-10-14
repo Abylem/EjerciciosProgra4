@@ -1,4 +1,4 @@
-package com.example.abbyrproject
+package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,11 +11,9 @@ class MainActivity : AppCompatActivity() {
         claseHerencia ()
         // claseInterface ()
         //modificadores de acceso ()
-
     }
     private fun claseHerencia(){
 
-        val veh = VhToyota(Dueño:"Edward", Kilometraje 2400)
+        val vehi = vhToyota(Dueño:"Edward", klm 2400)
     }
-
 }
